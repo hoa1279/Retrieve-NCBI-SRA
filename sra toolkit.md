@@ -16,7 +16,7 @@ Second, download and extract the tar file in to the conda environment folder
 sraPATH="your-conda-environment-path" #set the path of the environment, usually "/Users/<user-name>/anaconda3/envs/sra"
 curl --output $sraPATH/sratoolkit.tar.gz https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-mac64.tar.gz
 tar -vxzf $sraPATH/sratoolkit.tar.gz -C $sraPATH
-ls $sraPATH #check the name of extract file
+ls $sraPATH #check the name of extracted file
 ```
 Third, append the sratoolkit path to the PATH of the current environment 
 ```bash
