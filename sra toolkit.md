@@ -1,4 +1,5 @@
 # Use NCBI [SRA toolkit](https://github.com/ncbi/sra-tools)
+Instruction to download multople SRA runs at a time.
 
 ## 1. Download and instal SRA toolkit
 Follow the instruction in [sra installing page](https://github.com/ncbi/sra-tools/wiki/02.-Installing-SRA-Toolkit) for dowload and install SRA toolkit.
@@ -34,6 +35,7 @@ pwd #to check the current working directory
 cd <directory-path> #change working directory
 ```
 
+Alternatively, you can make a SRR_Acc_List.txt with the list of accession numbers that you want to download. 
 ## 3. Download fastq files of each SRA run
 ```bash
 prefetch $(<SRR_Acc_List.txt)  #~1min per 1 sra
