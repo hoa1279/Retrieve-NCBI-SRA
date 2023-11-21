@@ -1,5 +1,5 @@
 # Use NCBI [SRA toolkit](https://github.com/ncbi/sra-tools)
-Instruction to download multople SRA runs at a time.
+Instruction to download multiple SRA runs at a time.
 
 ## 1. Download and instal SRA toolkit
 Follow the instruction in [sra installing page](https://github.com/ncbi/sra-tools/wiki/02.-Installing-SRA-Toolkit) for dowload and install SRA toolkit.
