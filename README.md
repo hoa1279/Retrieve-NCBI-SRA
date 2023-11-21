@@ -1,4 +1,5 @@
 # Retrieve NCBI SRA
-Different ways to access NCBI SRA data
-## 1. Using Galaxy
-Follow the steps in Galaxy.html
+There are many ways to downloading raw fastq data from public sequencing data in NCBI SRA. 
+- Using GALAXY
+- Using sra-toolkit (comman line tool)
+  
